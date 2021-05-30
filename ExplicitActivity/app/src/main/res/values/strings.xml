@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExplicitActivity</string>
+    <string name="hint">Enter Your Message</string>
+    <string name="btn">Send</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Find Ice Cream</string>
+    <string name="btn">Button</string>
+    <string name="txtview">Nothing is selected</string>
+    <string-array name="iceCream">
+        <item>White</item>
+        <item>Green</item>
+        <item>Brown</item>
+        <item>Yellow</item>
+    </string-array>
+</resources>
