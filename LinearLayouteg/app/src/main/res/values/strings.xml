@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Linear Layout eg</string>
+    <string name="question">How do you like tea searved?</string>
+    <string name="toggleon">Hot</string>
+    <string name="toggleoff">Cold</string>
+    <string name="radiomilk">Milk</string>
+    <string name="radiosugar">Sugar</string>
+    <string name="radoilemon">Lemon</string>
+
+</resources>
