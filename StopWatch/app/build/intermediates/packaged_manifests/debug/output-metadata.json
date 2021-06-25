@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.hdfa.stopwatch",
+  "applicationId": "com.example.stopwatch",
   "variantName": "debug",
   "elements": [
     {

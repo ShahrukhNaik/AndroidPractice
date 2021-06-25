@@ -9,17 +9,18 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/edtxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/hint" />
-
+        android:layout_marginTop="20dp"
+        android:hint="@string/hint"
+        android:id="@+id/edttxt"
+        android:ems="10"/>
     <Button
-        android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:onClick="onSend"
-        android:text="@string/btn" />
+        android:text="@string/Button"
+        android:id="@+id/Btn"/>
 
 </LinearLayout>

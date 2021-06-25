@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ExplicitActivity</string>
-    <string name="hint">Enter Your Message</string>
-    <string name="btn">Send</string>
+    <string name="app_name">Explicit Activity</string>
+    <string name="Button">Send</string>
+    <string name="hint">Enter your message</string>
 </resources>

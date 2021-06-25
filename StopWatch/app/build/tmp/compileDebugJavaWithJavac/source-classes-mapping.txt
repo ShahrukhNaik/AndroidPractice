@@ -1,5 +1,5 @@
-com/hdfa/stopwatch/BuildConfig.java
- com.hdfa.stopwatch.BuildConfig
-com/hdfa/stopwatch/MainActivity.java
- com.hdfa.stopwatch.MainActivity
- com.hdfa.stopwatch.MainActivity$1
+com/example/stopwatch/BuildConfig.java
+ com.example.stopwatch.BuildConfig
+com/example/stopwatch/MainActivity.java
+ com.example.stopwatch.MainActivity
+ com.example.stopwatch.MainActivity$1

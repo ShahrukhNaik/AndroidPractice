@@ -4,8 +4,8 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "com.hdfa.stopwatch",
-  "variantName": "processDebugResources",
+  "applicationId": "com.example.stopwatch",
+  "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",

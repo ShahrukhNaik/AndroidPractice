@@ -9,26 +9,25 @@ import android.widget.TextView;
 
 import java.util.List;
 
-
 public class MainActivity extends AppCompatActivity {
-    TextView txt; Spinner spinner;
-    IceCreamExpert ie;
-
+    Spinner sp;
+    TextView tv;
+    IceCreamExpert ie=new IceCreamExpert();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void onBtnClick(View view){
-        txt=findViewById(R.id.res);
-        spinner=findViewById(R.id.color);
-        ie=new IceCreamExpert();
-        String s=spinner.getSelectedItem().toString();
-        List<String> getres=ie.GetBrands(s);
+
+    public void onbtnClick(View view) {
+        sp=findViewById(R.id.color);
+        String res=String.valueOf(sp.getSelectedItem());
+        tv=findViewById(R.id.brand);
+        List<String>getres=ie.getBrand(res);
         StringBuilder sb=new StringBuilder();
-        for(String brand: getres){
-            sb.append(brand).append("\n");
+        for(String a : getres){
+            sb.append(a).append("\n");
         }
-        txt.setText(sb);
+        tv.setText(sb);
     }
 }

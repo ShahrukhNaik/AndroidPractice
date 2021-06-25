@@ -10,20 +10,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World"
-        android:textSize="20sp"
         android:layout_centerInParent="true"
-        android:textColor="#3366ff"
-        android:id="@+id/txtview"/>
-
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        android:id="@+id/txtwlcm"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click Me"
-        android:layout_below="@+id/txtview"
+        android:text="say Hello"
+        android:layout_below="@+id/txtwlcm"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:onClick="OnHelloBtnClicked"/>
-
+        android:layout_marginTop="12dp"
+        android:background="@color/black"
+        android:onClick="btnClick"/>
 
 
 </RelativeLayout>

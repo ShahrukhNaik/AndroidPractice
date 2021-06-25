@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Find Ice Cream</string>
-    <string name="btn">Button</string>
-    <string name="txtview">Nothing is selected</string>
-    <string-array name="iceCream">
+    <string name="button">Find Ice Cream!</string>
+    <string name="flavor">No Flavor Selected</string>
+    <string-array name="color">
+        <item> </item>
         <item>White</item>
         <item>Green</item>
         <item>Brown</item>

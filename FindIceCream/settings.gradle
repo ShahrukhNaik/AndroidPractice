@@ -1,2 +1,2 @@
-include ':app'
 rootProject.name = "Find Ice Cream"
+include ':app'

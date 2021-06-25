@@ -9,30 +9,30 @@
     tools:context=".MainActivity">
 
     <Spinner
+        android:id="@+id/color"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/color"
         android:layout_marginTop="40dp"
         android:layout_gravity="center"
-        android:layout_margin="16dp"
-        android:entries="@array/iceCream"/>
+        android:entries="@array/color"
+        android:layout_margin="16dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/button"
         android:id="@+id/btn"
         android:layout_gravity="center"
         android:layout_margin="16dp"
-        android:onClick="onSelection"
-        android:text="@string/btn"/>
-
+        android:onClick="onbtnClick"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/txtview"
-        android:layout_gravity="center"
+        android:text="@string/flavor"
         android:layout_margin="16dp"
-        android:text="@string/txtview"/>
+        android:layout_gravity="center"
+        android:id="@+id/brand"/>
+
 
 
 </LinearLayout>
